@@ -22,7 +22,7 @@ Automated REST API built with Python & Flask, with a full CI/CD pipeline using G
 2. GitHub Actions automatically triggers
 3. Pipeline installs dependencies
 4. Pipeline tests the app
-5. ✅ All done automatically!
+5. All done automatically!
 
 ## 🚀 How to Run Locally
 ```bash
@@ -38,6 +38,3 @@ pip install -r requirements.txt
 # Run the app
 python app.py
 ```
-
-## 👤 Author
-- GitHub: [@preethar10](https://github.com/preethar10)
