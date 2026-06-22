@@ -15,5 +15,13 @@ def home():
 def health():
     return jsonify({"status": "healthy"}), 200
 
+@app.route("/about")
+def about():
+    return jsonify({
+        "project": "Flask CI/CD Pipeline",
+        "author": "preethar10",
+        "tech": ["Python", "Flask", "GitHub Actions"]
+    })
+
 if __name__ == "__main__":
     app.run(debug=True)
